@@ -6,6 +6,6 @@ namespace GamerOdev
 {
     interface ISalesService
     {
-        void Sales(Gamer gamer, Game game, Campaign campaign);
+        void Sales(Gamer gamer, Game game);
     }
 }

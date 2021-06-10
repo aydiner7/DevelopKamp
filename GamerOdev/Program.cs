@@ -38,6 +38,8 @@ namespace GamerOdev
             SalesManager salesManager = new SalesManager();
             salesManager.Sales(gamer, game, campaign);
 
+            salesManager.Sales(gamer, game);
+
         }
     }
 }
