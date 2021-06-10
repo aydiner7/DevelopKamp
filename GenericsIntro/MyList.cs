@@ -29,5 +29,12 @@ namespace GenericsIntro
             // eleman eklendi.
             items[items.Length - 1] = item;
         }
+
+        public int Length
+        {
+            get { return items.Length; }
+        }
+
+        
     }
 }

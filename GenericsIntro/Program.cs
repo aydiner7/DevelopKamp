@@ -11,6 +11,8 @@ namespace GenericsIntro
             myList.Add("Afra");
             myList.Add("Ahmet");
             myList.Add("Veli");
+
+            Console.WriteLine(myList.Length);
         }
     }
 }
