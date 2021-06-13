@@ -23,14 +23,6 @@ namespace LinqProject
                 new Product{ProductId=5, CategoryId=2, ProductName="SAMSUNG S10", QuantityPerUnit="4 GB RAM", UnitPrice=3000, UnitsInStock=11}
             };
 
-            GetProducts(products);
-
-            
-        }
-            
-        static List<Product> GetProducts(List<Product> products)
-        {
-
 
             var result = products.Where(p => p.UnitPrice > 4000 && p.UnitsInStock>4);
             foreach (var item in result)
@@ -38,6 +30,11 @@ namespace LinqProject
                 Console.WriteLine(item.ProductName);
             }
         }
+          
+
+
+            
+        
 
         class Product
         {
