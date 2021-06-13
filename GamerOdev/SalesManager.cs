@@ -16,7 +16,8 @@ namespace GamerOdev
         public void Sales(Gamer gamer, Game game, Campaign campaign)
         {
             islem = game.Price - ((game.Price * campaign.DiscountPercent) / 100);
-            Console.WriteLine(gamer.FirstName + " " + gamer.LastName + " " + campaign.Name + "dan " + "%" + campaign.DiscountPercent + " indirim ile " + islem + " karşılığında " + game.Name + " almıştır.");
+            Console.WriteLine(gamer.FirstName + " " + gamer.LastName + " " + campaign.Name + "dan " + "%" + campaign.DiscountPercent +
+                " indirim ile " + islem + " karşılığında " + game.Name + " almıştır.");
         }
 
 
